@@ -1,11 +1,11 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
   height: 100%;
   max-height: 75px;
   color: #000;
-  display :flex;
+  display: flex;
   justify-content: center;
 `;
 
@@ -19,7 +19,7 @@ export const Content = styled.div`
   display: flex;
   justify-content: space-between;
 
-  img{
+  img {
     max-width: 50px;
     width: 100%;
     margin: 13px;

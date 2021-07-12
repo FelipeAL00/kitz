@@ -1,7 +1,11 @@
-import { Container, Content, Cart } from './styles';
-import logo from '../../assets/images/logo.png';
+import React from 'react';
+
 import { MdShoppingBasket } from 'react-icons/md';
 import { Link } from 'react-router-dom';
+
+import logo from '../../assets/images/logo.png';
+import { Container, Content, Cart } from './styles';
+
 function Header() {
   return (
     <Container>
